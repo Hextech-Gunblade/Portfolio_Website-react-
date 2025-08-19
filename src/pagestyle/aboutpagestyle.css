@@ -1,0 +1,28 @@
+
+.AboutS{
+    font-family: 'Doto', sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.Header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pfp{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.txtp{
+    font-size: 20px;
+}
+

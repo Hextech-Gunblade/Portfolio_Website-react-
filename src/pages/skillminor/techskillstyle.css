@@ -1,0 +1,26 @@
+.techminipage{
+    height: 50vh;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Skillcontainer{
+    background-color: rgb(242, 242, 242);
+    color:rgb(0, 0, 0);
+    width: 150px;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    
+    gap: 15px;
+}
+.skillicon{
+    width: 5rem;
+    height: 5rem;
+}

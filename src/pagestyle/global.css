@@ -1,0 +1,8 @@
+.section {
+  height: 100vh;               /* เต็มจอ */
+  display: flex;               /* จัดกึ่งกลางได้ง่าย */
+  flex-direction: column;
+  justify-content: center;     /* กึ่งกลางแนวตั้ง */
+  align-items: center;         /* กึ่งกลางแนวนอน */
+  font-family: 'Doto', sans-serif;
+}

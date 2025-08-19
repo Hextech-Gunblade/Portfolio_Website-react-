@@ -1,0 +1,24 @@
+
+.icon {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Doto', sans-serif;
+}
+
+.head1{
+    margin:10px;
+    font-size: 90px;
+}
+.head2{
+    margin-top:10px;
+    font-size: 80px;
+}

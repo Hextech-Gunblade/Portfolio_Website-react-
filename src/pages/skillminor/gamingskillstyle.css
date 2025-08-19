@@ -1,0 +1,23 @@
+.ArrowContainer{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.gamingminipage{
+    width:1300px;
+    height: 50vh;
+}
+
+.ArrowButton{
+    background-color: white;
+    border-style: none;
+    width: 150px;
+    text-align: center;
+
+}
+.arrowicon{
+    aspect-ratio: 1/2;
+    height: 300px;
+}

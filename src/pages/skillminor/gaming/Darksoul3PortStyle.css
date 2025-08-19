@@ -1,0 +1,17 @@
+.DSimage{
+    height: 225px;
+    border-radius: 20px;
+}
+.darksoul3port{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.DS3Line{
+    background-color: black;
+    width: 460px;
+    height: 3px;
+    border-radius: 100px;
+}
