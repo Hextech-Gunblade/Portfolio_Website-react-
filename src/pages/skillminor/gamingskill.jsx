@@ -4,7 +4,7 @@ import "./gamingskillstyle.css";
 import DS3 from "./gaming/Darksoul3Port.jsx";
 export default function GamingSkill() {
 
-  const [activeTab,setActiveTab] = useState(1);
+  const [activeTab,setActiveTab] = useState(2);
   const totalTabs = 2;
 
   const handlePrev = () => {

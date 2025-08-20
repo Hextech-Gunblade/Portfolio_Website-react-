@@ -13,7 +13,7 @@ export default function Navbar() {
                         <li className='Nav_Item'><a href='#About'> About </a></li>
                         <li className='Nav_Item'><a href='#Skill'> Skills </a></li>
                         <li className='Nav_Item'><a> Projects </a></li>
-                        <li className='Nav_Item'><a> Contacts </a></li>
+                        <li className='Nav_Item'><a href='#Contact'> Contacts </a></li>
                     </ul>    
                 </div>
             </nav>
