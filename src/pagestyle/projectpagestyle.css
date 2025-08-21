@@ -1,0 +1,21 @@
+.sectionproject{
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectContainer{
+    height: 52vh;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ProjectContent{
+    width: 1000px;
+}

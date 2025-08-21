@@ -31,6 +31,7 @@
   cursor: pointer; /* แสดงเคอร์เซอร์เป็นมือเมื่อ hover */
 }
 .sectionskill{
+  /* background-color: blue  ; */
   height: 100vh;
   display: flex;              
   flex-direction: column;

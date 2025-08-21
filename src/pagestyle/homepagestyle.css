@@ -6,6 +6,7 @@
 }
 
 .landing {
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   justify-content: center;
