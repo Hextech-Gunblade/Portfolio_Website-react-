@@ -2,9 +2,10 @@
 import { useState } from "react";
 import "./gamingskillstyle.css";
 import DS3 from "./gaming/Darksoul3Port.jsx";
+import LoL from "./gaming/lolPort.jsx";
 export default function GamingSkill() {
 
-  const [activeTab,setActiveTab] = useState(2);
+  const [activeTab,setActiveTab] = useState(1);
   const totalTabs = 2;
 
   const handlePrev = () => {
@@ -21,7 +22,7 @@ export default function GamingSkill() {
       <div className="ArrowContainer">
         <button className="ArrowButton" onClick = {handlePrev}> <img class = "arrowicon" src = "/icon/prev.png" ></img>  </button>      
         <div>
-          { activeTab === 1 && <div>League of Legends</div>}
+          { activeTab === 1 && <LoL />}
           { activeTab === 2 && <DS3 />}
         </div>
         <button className="ArrowButton" onClick = {handleNext}> <img class = "arrowicon" src = "/icon/nxt2.png" ></img> </button>

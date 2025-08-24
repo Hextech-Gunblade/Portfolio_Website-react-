@@ -16,11 +16,13 @@ export default function DS3() {
                 One of the most challenging games I’ve played.<br></br>
                 It’s well-known among players for it's difficulty.<br></br>
             </p>
+            <br></br>
             <p>
                 At first, I failed many times against the bosses.<br></br>
                 But I didn’t give up <br></br>
                 I kept trying and testing new strategies.<br></br>
             </p>
+            <br></br>
             <p>
                 From every mistake, I learned something new.<br></br>
                 This game taught me an important lesson:<br></br>

@@ -1,0 +1,17 @@
+.lolimage{
+    height: 225px;
+    border-radius: 20px;
+}
+.lolport{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.lolLine{
+    background-color: black;
+    width: 460px;
+    height: 3px;
+    border-radius: 100px;
+}
