@@ -21,7 +21,7 @@ export default function GamingSkill() {
 
       <div className="ArrowContainer">
         <button className="ArrowButton" onClick = {handlePrev}> <img class = "arrowicon" src = "/icon/prev.png" ></img>  </button>      
-        <div>
+        <div className="GameContent">
           { activeTab === 1 && <LoL />}
           { activeTab === 2 && <DS3 />}
         </div>

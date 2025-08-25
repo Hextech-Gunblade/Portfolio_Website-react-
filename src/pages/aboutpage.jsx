@@ -3,7 +3,7 @@ import '../pagestyle/global.css';
 
 export default function AboutP() {
   return (
-    <section className="section AboutS" id="About">
+    <section className="section" id="About">
       <h1 className="Header">About</h1>
       <div className="flex">
         <img

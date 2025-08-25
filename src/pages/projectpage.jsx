@@ -1,7 +1,9 @@
+import { useState } from "react";
+
 import '../pagestyle/projectpagestyle.css';
 import '../pagestyle/global.css';
+
 import Project1P from  './projectcontent/project1.jsx';
-import { useState } from "react";
 
 export default function ProjectP() {
     const [activeTab,setActiveTab] = useState(1);
@@ -14,17 +16,18 @@ export default function ProjectP() {
       setActiveTab((prev) => (prev === totalTabs ? 1 : prev + 1));
       };
   return (
-    <section className="sectionproject" id="Project">
+    <section className="section" id="Project">
         <h1 className='Header'>Projects</h1>
-        <div className="ProjectContainer">
-
-                <button className="ArrowButton" onClick = {handlePrev}> <img className = "arrowicon" src = "/icon/prev.png" ></img>  </button>      
-                <div className = "ProjectContent">
-                  { activeTab === 1 && <Project1P />}
-                  { activeTab === 2 && <div>2</div>}
-                </div>
-                <button className="ArrowButton" onClick = {handleNext}> <img className = "arrowicon" src = "/icon/nxt2.png" ></img> </button>
-        </div>
+        <section className='BelowHeader'>
+          <div className="ProjectContainer">
+                  <button className="ArrowButton" onClick = {handlePrev}> <img className = "arrowicon" src = "/icon/prev.png" ></img>  </button>      
+                  <div className = "ProjectContent">
+                    { activeTab === 1 && <Project1P />}
+                    { activeTab === 2 && <div>2</div>}
+                  </div>
+                  <button className="ArrowButton" onClick = {handleNext}> <img className = "arrowicon" src = "/icon/nxt2.png" ></img> </button>
+          </div>
+        </section>
     </section>
   );
 }

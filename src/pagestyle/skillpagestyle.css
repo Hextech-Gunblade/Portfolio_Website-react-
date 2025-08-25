@@ -38,3 +38,9 @@
   align-items: center;        
   font-family: 'Poppins', sans-serif; 
 }
+
+.SkillContent{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

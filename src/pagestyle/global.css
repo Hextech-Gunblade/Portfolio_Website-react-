@@ -2,7 +2,23 @@
   height: 100vh;               /* เต็มจอ */
   display: flex;               /* จัดกึ่งกลางได้ง่าย */
   flex-direction: column;
-  justify-content: center;     /* กึ่งกลางแนวตั้ง */
+  justify-items: center;     /* กึ่งกลางแนวตั้ง */
   align-items: center;         /* กึ่งกลางแนวนอน */
   font-family: 'Doto', sans-serif;
+}
+
+.Header{
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.BelowHeader{
+  display: flex;              
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactGap{
+  gap: 150px;
 }

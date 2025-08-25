@@ -21,3 +21,10 @@
     aspect-ratio: 1/2;
     height: 300px;
 }
+
+.GameContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

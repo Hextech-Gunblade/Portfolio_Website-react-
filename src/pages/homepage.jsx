@@ -1,8 +1,9 @@
+import '../pagestyle/homepagestyle.css';
+import '../pagestyle/global.css';
+
 import Dev_icon from '../assets/Dev_icon.png';
 import Skill_icon from '../assets/Skill_icon.png';
 import Github_icon from '../assets/Github_icon.png';
-import '../pagestyle/homepagestyle.css';
-import '../pagestyle/global.css';
 
 export default function Homep() {
   return (
